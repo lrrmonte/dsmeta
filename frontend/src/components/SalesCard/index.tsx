@@ -21,9 +21,9 @@ function SalesCard() {
         .then(Response => {
 
             console.log(Response.data);
-        })
+        });
 
-    }, [])
+    }, []);
 
     return (
         <div className="dsmeta-card">
